@@ -1,0 +1,21 @@
+{
+  "name": "operativosazurecola",
+  "version": "1.0.0",
+  "description": "Servidor node.js para recibir peticiones de un cliente que genera numeros random cuando detecta al usuario mirando la camara ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "eyes",
+    "tracking"
+  ],
+  "author": "MLopez",
+  "license": "ISC",
+  "dependencies": {
+    "ajax-request": "^1.2.3",
+    "azure": "^2.3.0-preview",
+    "express": "^4.16.3"
+  }
+}

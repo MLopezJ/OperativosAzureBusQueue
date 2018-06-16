@@ -1,0 +1,54 @@
+<!doctype html>
+<!-- This is just a very slightly modified tracking.js demo: https://trackingjs.com/examples/face_camera.html -->
+<html>
+<head>
+    <title>take a look of my queue</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tracking.js/1.1.3/tracking-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tracking.js/1.1.3/data/face-min.js"></script>
+
+    <style>
+        video, canvas {
+            margin-left:25%; //100px;
+            margin-top: 7%; //120px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1 align="center">Mauro López J.</h1>
+    <h3 align="center">Instituto Tecnologico de Costa Rica</h3>
+    <h4 align="center">Sistemas Operativos - Ing. en Computación</h4>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-1 col-sm-1 col-sm-1 col-sm-1"></div>
+        <div class="col-md-10 col-sm-10 col-sm-10 col-sm-10">
+            <div class="demo-frame">
+                <div class="demo-container">
+                    <video id="video" width="320" height="240" preload autoplay loop muted></video>
+                    <canvas id="canvas" width="320" height="240"></canvas>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-1 col-sm-1 col-sm-1 col-sm-1"></div>
+    </div>
+</div>
+
+
+<script src="tracking.js">
+
+</script>
+
+</body>
+</html>
